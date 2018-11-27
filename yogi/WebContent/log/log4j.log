@@ -1,0 +1,3 @@
+[FATAL] 2018-11-23 15:02:18 / test/Log4jTest.oracleConnect()/soldesk JDBC Driver 로딩 실패, 기타 에러 발생
+[ERROR] 2018-11-23 15:03:07 / test/Log4jTest.oracleConnect()/soldesk1 Oracle 접속 에러 발생
+[INFO ] 2018-11-23 15:04:09 / test/Log4jTest.oracleConnect()/soldesk 계정 데이터베이스 접속 성공

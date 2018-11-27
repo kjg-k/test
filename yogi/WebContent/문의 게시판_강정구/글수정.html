@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body style="width: 80%">
+
+<div>
+ 
+ <form>
+  
+  <h3>문의 유형</h3>  
+  <select>
+   <option>@선택된 문의유형 고정</option>
+  </select>
+  <br><br>
+  
+  <h3>글 제목</h3>
+  <input type="text" name="title" value="@저장된 글 제목">
+  <br><br>
+      
+  <h3>문의내용</h3>
+  <textarea rows="10" cols="70" name="content">@저장된 문의 내용</textarea>
+  <ul style="font-size: 13px">
+   <li>내용은 10자 이상 입력해주세요.</li>
+   <li>문의하시는 호텔 이름과 예약 정보를 남겨주시면 보다 빠른 상담이 가능합니다.</li>
+   <li>휴대폰 번호는 유선 답변을 위해 수집되며, 답변 완료 후 즉시 삭제됩니다.</li>
+  </ul>
+  <br>
+  
+  <h3>휴대폰 번호</h3>
+  <input type="text" name="tel" value="@저장된 휴대폰 번호">
+  <br><br>
+  
+  <h3>비밀번호</h3>
+  <input type="password" name="passwd">
+  @비밀번호 check
+  <br><br>
+  
+  <input type="checkbox" checked="@checked">글 비공개 설정
+  <br><br>
+  
+  <div>
+   <input type="button" value="수정">
+   <input type="button" value="리셋">
+   <input type="button" value="목록">
+   <input type="button" value="뒤로가기">
+   <input type="button" value="홈">
+  </div>
+  
+ </form>
+ 
+</div>
+
+</body>
+</html>
